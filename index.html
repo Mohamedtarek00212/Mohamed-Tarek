@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Tarek | Data Analyst Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Mohamed Tarek Aboelkhir — Junior Data Analyst specializing in Applied AI & Data Analytics." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-name">Mohamed Tarek</span>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active" id="navHome">Home</a>
+            <a href="#skills" class="nav-link" id="navSkills">Skills</a>
+            <a href="#experience" class="nav-link" id="navExperience">Experience</a>
+            <a href="#projects" class="nav-link" id="navProjects">Projects</a>
+            <a href="#education" class="nav-link" id="navEducation">Education</a>
+            <a href="#certifications" class="nav-link" id="navCerts">Certifications</a>
+            <a href="#contact" class="nav-link" id="navContact">Contact</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="hero-bg-waves"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Mohamed Tarek</h1>
+                <div class="hero-badge">
+                    <span class="badge-icon">✦</span>
+                    <span>Junior Data Analyst</span>
+                </div>
+                <div class="about-bio-styled" style="margin-bottom: 28px; max-width: 580px;">
+                    <p class="hero-desc" style="color: var(--text-main); margin-bottom: 0; line-height: 1.8; font-size: 0.95rem;">
+                        Data Analyst who believes that data is the true engine of growth and smart decision-making in the business world. I work on transforming raw data into strategic insights that help companies understand markets, connect with customers, and improve performance. I started my journey with a background in studying human behavior through social work, then gained practical experience in commerce, customs clearance, and stock trading. This unique blend strengthens my ability to connect digital analysis with real business reality.
+                    </p>
+                </div>
+
+                <div class="about-stats" style="display: flex; gap: 40px; margin-bottom: 36px; margin-top: 0;">
+                    <div class="stat-item" style="text-align: left;">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item" style="text-align: left;">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-item" style="text-align: left;">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:mohamedtarek00212@gmail.com" class="social-link" id="heroEmail" title="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,12 2,6" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/mohamedtarek00212" target="_blank" class="social-link"
+                        id="heroLinkedin" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/mohamedtarek00212" target="_blank" class="social-link" id="heroGitHub"
+                        title="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" id="heroContactBtn">✉ Contact Me</a>
+                    <a href="#projects" class="btn btn-outline" id="heroPortfolioBtn">View Portfolio ➜</a>
+                    <a href="CV.pdf?v=20260502b" download="Mohamed_Tarek_CV.pdf" class="btn btn-outline" id="heroDownloadBtn">📄 Download CV</a>
+                </div>
+                <div class="about-info-cards" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 12px; margin-top: 36px; width: 100%;">
+                    <div class="info-card" style="background: rgba(255,255,255,0.03); justify-content: flex-start; padding-left: 24px; border-radius: 50px;">
+                        <span class="info-icon">📍</span>
+                        <span>Cairo, Egypt</span>
+                    </div>
+                    <div class="info-card" style="background: rgba(255,255,255,0.03); justify-content: flex-start; padding-left: 24px; border-radius: 50px;">
+                        <span class="info-icon">📞</span>
+                        <span>+201552437555</span>
+                    </div>
+                    <div class="info-card" style="background: rgba(255,255,255,0.03); justify-content: flex-start; padding-left: 24px; border-radius: 50px;">
+                        <span class="info-icon">🌐</span>
+                        <span>Arabic & English</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper" style="display: flex; justify-content: center; align-items: center; flex: 0 0 auto;">
+                <div style="position: relative;">
+                    <div class="hero-image-container">
+                        <img src="new-profile.png" alt="Mohamed Tarek" class="hero-photo" id="heroPhoto" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card" id="skillProgramming">
+                    <div class="skill-icon-wrap">🐍</div>
+                    <h3>Programming & Databases</h3>
+                    <p>Python, SQL</p>
+                </div>
+                <div class="skill-card" id="skillBI">
+                    <div class="skill-icon-wrap">📊</div>
+                    <h3>Data Visualization & BI</h3>
+                    <p>Power BI, Tableau, Microsoft Excel</p>
+                </div>
+                <div class="skill-card" id="skillML">
+                    <div class="skill-icon-wrap">🤖</div>
+                    <h3>Machine Learning & AI</h3>
+                    <p>ML (Prediction, Classification, Segmentation), Deep Learning, Data Mining</p>
+                </div>
+                <div class="skill-card" id="skillStats">
+                    <div class="skill-icon-wrap">📈</div>
+                    <h3>Data Analysis & Statistics</h3>
+                    <p>Statistical Analysis, Applied Statistics, SPSS</p>
+                </div>
+                <div class="skill-card" id="skillCloud">
+                    <div class="skill-icon-wrap">☁️</div>
+                    <h3>Cloud & Tools</h3>
+                    <p>Microsoft Azure (Fundamentals)</p>
+                </div>
+                <div class="skill-card" id="skillSoft">
+                    <div class="skill-icon-wrap">💡</div>
+                    <h3>Soft Skills</h3>
+                    <p>Analytical Thinking, Problem Solving, Business Acumen, Communication</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1: Telecom Churn -->
+                <div class="project-card" id="projectChurn" onclick="window.open('https://github.com/Mohamedtarek00212/telecom-customer-churn-EDA', '_blank')" style="cursor: pointer;">
+                    <div class="project-img-wrap">
+                        <img src="Project/Churn Telecom/Telecom Customer Churn Analysis .jpg" alt="Telecom Churn Analysis" class="project-img" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/Mohamedtarek00212/telecom-customer-churn-EDA" class="project-btn" target="_blank">View Project ➜</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">EDA</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <h3 class="project-title">Telecom Churn Analysis</h3>
+                        <p class="project-desc">Exploratory Data Analysis on telecom customer churn data. Identified key factors driving churn using Python, visualization libraries, and statistical analysis to provide actionable business insights.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2: Customer Segmentation -->
+                <div class="project-card" id="projectSegmentation" onclick="window.open('https://github.com/Mohamedtarek00212/Retail-Customer-Segmentation', '_blank')" style="cursor: pointer;">
+                    <div class="project-img-wrap">
+                        <img src="Project/Customer Segmentation/Customer Segmentation.jpg" alt="Customer Segmentation" class="project-img" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/Mohamedtarek00212/Retail-Customer-Segmentation" class="project-btn" target="_blank">View Project ➜</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Clustering</span>
+                            <span class="tag">RFM Analysis</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Customer Segmentation</h3>
+                        <p class="project-desc">Analyzed transactional data to segment customers based on purchasing behavior using RFM analysis and Machine Learning clustering techniques to optimize marketing strategies.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: Pizza Dashboard -->
+                <div class="project-card" id="projectPizza" onclick="window.open('https://app.powerbi.com/view?r=eyJrIjoiNjU4N2VlY2ItODY4MC00MGMyLWI4ZGUtOGVjNDA5YWJhZTViIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9', '_blank')" style="cursor: pointer;">
+                    <div class="project-img-wrap">
+                        <img src="Project/pizza DashBoard/Sales Analysis .jpg" alt="Pizza Sales Dashboard" class="project-img" />
+                        <div class="project-overlay">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiNjU4N2VlY2ItODY4MC00MGMyLWI4ZGUtOGVjNDA5YWJhZTViIiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9" class="project-btn" target="_blank">View Dashboard ➜</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                        <h3 class="project-title">Pizza Sales Interactive Dashboard</h3>
+                        <p class="project-desc">Designed a dynamic Power BI dashboard to analyze pizza sales performance, tracking key metrics such as revenue, order volume, and top-performing products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+            <div class="exp-timeline">
+
+                <!-- Job 1 -->
+                <div class="exp-item" id="expAI">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-title">Applied AI &amp; Data Analytics</h3>
+                                <p class="exp-company">Digilians | MCIT &amp; Egyptian Military Academy</p>
+                            </div>
+                            <span class="exp-badge">Current</span>
+                        </div>
+                        <span class="exp-period">📅 Dec 2025 – Present</span>
+                        <ul class="exp-list">
+                            <li>Intensive diploma focused on Applied Artificial Intelligence and Data Analytics.</li>
+                            <li>Analyzing large datasets using Python and SQL to extract meaningful insights.</li>
+                            <li>Developing predictive models using Machine Learning and Deep Learning techniques.</li>
+                            <li>Designing interactive Power BI dashboards to monitor KPIs and communicate insights
+                                effectively.</li>
+                            <li>Applying statistical methods to solve real-world analytical and business problems.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="exp-item" id="expCustoms">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-title">Customs Clearance Coordinator</h3>
+                                <p class="exp-company">Egy Trade</p>
+                            </div>
+                            <span class="exp-period-tag">2023 – 2025</span>
+                        </div>
+                        <span class="exp-period">📅 2023 – 2025</span>
+                        <ul class="exp-list">
+                            <li>Executed and monitored customs clearance procedures for vehicle imports, with structured
+                                management of large-scale operational data.</li>
+                            <li>Reviewed and audited records to ensure data accuracy, consistency, and compliance with
+                                customs regulations.</li>
+                            <li>Tracked shipment status and clearance timelines using data tools (Excel) to identify
+                                bottlenecks and improve operational efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- Job 4 -->
+                <div class="exp-item" id="expBusiness">
+                    <div class="exp-dot"></div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-title">Founder &amp; Operations Manager</h3>
+                                <p class="exp-company">Small Business – Apparel Retail</p>
+                            </div>
+                            <span class="exp-period-tag">2021 – 2023</span>
+                        </div>
+                        <span class="exp-period">📅 2021 – 2023</span>
+                        <ul class="exp-list">
+                            <li>Established and managed an apparel retail business, utilizing data-driven strategies to
+                                optimize daily operations and sales.</li>
+                            <li>Tracked and analyzed sales data and inventory levels to identify top-performing products
+                                and understand customer preferences.</li>
+                            <li>Leveraged data insights to make informed purchasing and pricing decisions, reducing dead
+                                stock and maximizing profitability.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section class="education section" id="education">
+        <div class="container">
+            <h2 class="section-title">🎓 <span class="gradient-text">Education</span></h2>
+            <div class="edu-timeline">
+
+                <div class="edu-item" id="eduBachelor">
+                    <div class="edu-dot"></div>
+                    <div class="edu-card">
+                        <span class="edu-year">2022</span>
+                        <h3>Bachelor of Social Work</h3>
+                        <p class="edu-org">Higher Institute of Social Work, Port Said</p>
+                        <p class="edu-desc">Studied human behavior, social sciences, and research methods — a foundation
+                            that strengthened analytical and communication skills.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS ========== -->
+    <section class="certifications section" id="certifications">
+        <div class="container">
+            <h2 class="section-title">🏅 <span class="gradient-text">Certifications</span></h2>
+            <div class="edu-timeline">
+
+                <div class="edu-item" id="certDiploma">
+                    <div class="edu-dot"></div>
+                    <div class="edu-card">
+                        <span class="edu-year">Dec 2025 – Present</span>
+                        <h3>Specialized Diploma in Applied AI &amp; Data Analytics</h3>
+                        <p class="edu-org">MCIT &amp; Egyptian Military Academy (Digilians)</p>
+                        <p class="edu-desc">Intensive diploma covering Python, SQL, Machine Learning, Deep Learning,
+                            Power BI, and statistical analysis.</p>
+                    </div>
+                </div>
+
+                <div class="edu-item" id="certGoogle">
+                    <div class="edu-dot"></div>
+                    <div class="edu-card">
+                        <span class="edu-year">Dec 2025</span>
+                        <h3>Google Advanced Data Analytics Professional Certificate</h3>
+                        <p class="edu-org">Coursera</p>
+                    </div>
+                </div>
+
+                <div class="edu-item" id="certExcel">
+                    <div class="edu-dot"></div>
+                    <div class="edu-card">
+                        <span class="edu-year">Dec 2025</span>
+                        <h3>Data Analysis with Excel Power Tools</h3>
+                        <p class="edu-org">DataCamp</p>
+                    </div>
+                </div>
+
+                <div class="edu-item" id="certSQL">
+                    <div class="edu-dot"></div>
+                    <div class="edu-card">
+                        <span class="edu-year">Aug 2025</span>
+                        <h3>Associate Data Analyst in SQL</h3>
+                        <p class="edu-org">DataCamp</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="contact-intro">I'm always open to discussing data projects, collaborations, or new
+                        opportunities. Feel free to reach out!</p>
+                    <div class="contact-items">
+                        <a href="mailto:mohamedtarek00212@gmail.com" class="contact-item" id="contactEmail">
+                            <div class="contact-icon">✉</div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">mohamedtarek00212@gmail.com</span>
+                            </div>
+                        </a>
+                        <div class="contact-item" id="contactPhone">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+20 155 243 7555</span>
+                            </div>
+                        </div>
+                        <div class="contact-item" id="contactLocation">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Cairo, Egypt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" id="formName" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" id="formEmail" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" id="formMessage" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="formSubmit">Send Message ➜</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <p>© 2026 <strong>Mohamed Tarek Aboelkhir</strong>. Built with passion for data.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

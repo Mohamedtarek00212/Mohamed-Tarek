@@ -1,0 +1,41 @@
+# ── Jupyter ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── Virtual Environments ────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Environment Variables ───────────────────────────────
+.env
+.env.local
+
+# ── Streamlit ───────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── macOS ───────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Data & Model Artefacts (large files) ────────────────
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+!online_retail_II.xlsx
+
+# ── IDE ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
